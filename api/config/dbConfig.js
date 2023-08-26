@@ -47,3 +47,6 @@ db.sequelize.sync({force:true})
 
 
 module.exports= db
+
+
+//https://stackoverflow.com/questions/60027118/import-large-data-from-json-file-to-mysql-database-using-sequelize
