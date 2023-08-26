@@ -17,6 +17,11 @@ app.get('/', (req,res)=>{
 })
 
 
+//routes linked
+const userRoute = require('./routes/userRoute.js')
+app.use('/users', userRoute)
+
+
 const PORT = process.env.PORT
 //listen
 app.listen(PORT,()=>{
